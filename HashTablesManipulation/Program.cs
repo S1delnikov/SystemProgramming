@@ -9,19 +9,7 @@ using System.Threading.Tasks;
 namespace ConsoleApp1
 {
     internal class Program
-    { /*
-        static void AddInHash(Hashtable ht, string fst, string scd)
-        {
-            if (ht.Contains(fst) == true)
-            {
-                ht.Add(fst.Substring(0, 1), scd);
-            }
-            else
-            {
-                ht.Add(fst, scd);
-            }
-        }
-        */
+    { 
         static void Main(string[] args)
         {
             Hashtable ht = new Hashtable();
